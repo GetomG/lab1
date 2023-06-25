@@ -24,7 +24,7 @@ while 1:
         break;  
 print("came out of while loop");  
 
-
+## test outline
 n=2  
 while 1:  
     i=1;  

@@ -1,0 +1,97 @@
+timestamp,message,ingestionTime,log_group_name,log_stream_name,line_no
+2021-01-24 17:39:21.110000,"OpenBLAS WARNING - could not determine the L2 cache size on this system, assuming 256k
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,1
+2021-01-24 17:39:22.777000,"START RequestId: b9ef26c2-1254-469f-ae69-69650b0b4a10 Version: $LATEST
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,2
+2021-01-24 17:39:22.777000,"now before neptune call = 2021-01-24 10:39:22.777536
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,3
+2021-01-24 17:39:22.777000,"Getting Secret values from parameter store with key :  /top-cwp-common
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,4
+2021-01-24 17:39:22.900000,"Opening Connection
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,5
+2021-01-24 17:39:22.916000,"Connection is opened
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,6
+2021-01-24 17:39:22.916000,"Executing Query :  call top_cwp_db.getIntegrationFieldName('CDU-1',null,null,'APS Data')
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,7
+2021-01-24 17:39:24.730000,"now after neptune call = 2021-01-24 10:39:24.730714
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,8
+2021-01-24 17:39:24.831000,"type        date     Sulfur       TAN
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,9
+2021-01-24 17:39:24.831000,"0            Crude  2020-03-01   0.115615  0.131179
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,10
+2021-01-24 17:39:24.831000,"1           Gasoil  2020-03-01  0.0973592  0.194181
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,11
+2021-01-24 17:39:24.831000,"2     Long residue  2020-03-01   0.253351  0.245918
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,12
+2021-01-24 17:39:24.831000,"3         Kerosene  2020-03-01        NaN       NaN
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,13
+2021-01-24 17:39:24.831000,"4     Long residue  2020-03-02   0.217535  0.169638
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,14
+2021-01-24 17:39:24.831000,"...            ...         ...        ...       ...
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,15
+2021-01-24 17:39:24.831000,"1203      Kerosene  2020-12-30        NaN       NaN
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,16
+2021-01-24 17:39:24.831000,"1204  Long residue  2020-12-31   0.230258  0.177446
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,17
+2021-01-24 17:39:24.831000,"1205         Crude  2020-12-31   0.134436  0.140905
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,18
+2021-01-24 17:39:24.831000,"1206        Gasoil  2020-12-31   0.111646  0.203584
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,19
+2021-01-24 17:39:24.831000,"1207      Kerosene  2020-12-31        NaN       NaN
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,20
+2021-01-24 17:39:24.831000,"[1208 rows x 4 columns]
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,21
+2021-01-24 17:39:24.855000,"Started connection with Aurora DB in getColor method at time = 2021-01-24 10:39:24.854867
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,22
+2021-01-24 17:39:24.855000,"Executing Query :  select crude_blend_color from top_cwp_db.dim_crude_colors order by crude_blend_color_order;
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,23
+2021-01-24 17:39:24.874000,"Finished connection with Aurora DB in getColor at time = 2021-01-24 10:39:24.874770
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,24
+2021-01-24 17:39:25.117000,"END RequestId: b9ef26c2-1254-469f-ae69-69650b0b4a10
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,25
+2021-01-24 17:39:25.117000,"REPORT RequestId: b9ef26c2-1254-469f-ae69-69650b0b4a10	Duration: 2340.30 ms	Billed Duration: 2341 ms	Memory Size: 1000 MB	Max Memory Used: 164 MB	Init Duration: 2397.34 ms	
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,26
+2021-01-24 17:39:28.901000,"START RequestId: 9b87d498-fdd0-4dc0-93d3-c63ed2e4cc1e Version: $LATEST
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,27
+2021-01-24 17:39:28.905000,"now before neptune call = 2021-01-24 10:39:28.904945
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,28
+2021-01-24 17:39:28.905000,"Executing Query :  call top_cwp_db.getIntegrationFieldName('CDU-1',null,null,'APS Data')
+",2021-01-24 17:39:30.174000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,29
+2021-01-24 17:39:30.516000,"now after neptune call = 2021-01-24 10:39:30.516603
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,30
+2021-01-24 17:39:30.590000,"type        date     Sulfur       TAN
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,31
+2021-01-24 17:39:30.590000,"0            Crude  2020-03-01   0.115615  0.131179
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,32
+2021-01-24 17:39:30.590000,"1           Gasoil  2020-03-01  0.0973592  0.194181
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,33
+2021-01-24 17:39:30.590000,"2     Long residue  2020-03-01   0.253351  0.245918
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,34
+2021-01-24 17:39:30.590000,"3         Kerosene  2020-03-01        NaN       NaN
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,35
+2021-01-24 17:39:30.590000,"4     Long residue  2020-03-02   0.217535  0.169638
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,36
+2021-01-24 17:39:30.590000,"...            ...         ...        ...       ...
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,37
+2021-01-24 17:39:30.590000,"1203      Kerosene  2020-12-30        NaN       NaN
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,38
+2021-01-24 17:39:30.590000,"1204  Long residue  2020-12-31   0.230258  0.177446
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,39
+2021-01-24 17:39:30.590000,"1205         Crude  2020-12-31   0.134436  0.140905
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,40
+2021-01-24 17:39:30.590000,"1206        Gasoil  2020-12-31   0.111646  0.203584
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,41
+2021-01-24 17:39:30.590000,"1207      Kerosene  2020-12-31        NaN       NaN
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,42
+2021-01-24 17:39:30.590000,"[1208 rows x 4 columns]
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,43
+2021-01-24 17:39:30.599000,"Started connection with Aurora DB in getColor method at time = 2021-01-24 10:39:30.599043
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,44
+2021-01-24 17:39:30.599000,"Executing Query :  select crude_blend_color from top_cwp_db.dim_crude_colors order by crude_blend_color_order;
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,45
+2021-01-24 17:39:30.601000,"Finished connection with Aurora DB in getColor at time = 2021-01-24 10:39:30.601407
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,46
+2021-01-24 17:39:30.811000,"END RequestId: 9b87d498-fdd0-4dc0-93d3-c63ed2e4cc1e
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,47
+2021-01-24 17:39:30.811000,"REPORT RequestId: 9b87d498-fdd0-4dc0-93d3-c63ed2e4cc1e	Duration: 1906.51 ms	Billed Duration: 1907 ms	Memory Size: 1000 MB	Max Memory Used: 164 MB	
+",2021-01-24 17:39:39.546000,/aws/lambda/top-cwp-api-home-corrosionparameterstrendchart,2021/01/24/[$LATEST]06de3e608fb149dd9527462e94e91859,48
