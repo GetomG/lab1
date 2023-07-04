@@ -40,7 +40,9 @@ for i in range(0, 10) :
     my_set.add(''.join(random.choice(letters) for i in range(10)))    
     print(my_set)
     
-
-while True :
-    print(my_set.pop())
+print("member is {}".format(len(my_set)))
+iCount = 0
+while len(my_set) > 0 :
+    iCount+=1
+    print("member {} = {}".format(iCount,my_set.pop()))
     time.sleep(1)
