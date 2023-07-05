@@ -3,5 +3,8 @@
 import keyword  
     
 # displaying the complete list using "kwlist()."  
-print("The set of keywords in this version is: ")  
+print("The set of keywords in this version is: Zai")  
 print( keyword.kwlist )
+
+for command in keyword.kwlist:
+    print(command)

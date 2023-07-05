@@ -20,10 +20,10 @@ if a >= 8:
     print("Correct a == 7")
 if a == 7:
     print("Correct a == 7")
-else :
-    print("Unknow value of a")
 elif a == 1:
     print("Correct a = 1")
+else :
+    print("Unknow value of a")
 
 
 

@@ -7,7 +7,7 @@ def mainFunction():
     global x  
     print(x)  
     # modifying a global variable  
-    x = 'Welcome To Javatpoint'  
+    x = 'Welcome To Javapoint'  
     print(x)  
   
 mainFunction()

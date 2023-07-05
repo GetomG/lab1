@@ -24,6 +24,7 @@ logFormatter = logging.Formatter('[%(asctime)s] {%(filename)s:%(lineno)d} %(leve
 logging.basicConfig(stream=sys.stdout, format='[%(asctime)s] {%(filename)s:%(lineno)d} %(levelname)s - %(message)s')
 
 log = logging.getLogger()
+log.error("Test Error")
 # log.setLevel(logging.DEBUG)
 log.setLevel(logging.INFO)
 

@@ -1,11 +1,15 @@
-list =[1,2,3,4]  
-count = 1;  
+list =[1,2,3,5,4]  
+count = 0;  
 for i in list:  
+    count = count + 1;  
     if i == 4:  
         print("item matched")  
-        count = count + 1;  
-        break  
+        break
+    else:
+        continue  
 print("found at",count,"location");  
+
+
 
 
 str = "python"  
@@ -17,7 +21,7 @@ for i in str:
 
 
 i = 0;  
-while 1:  
+while True:  
     print(i," ",end=""),  
     i=i+1;  
     if i == 10:  
@@ -29,8 +33,8 @@ n=2
 while 1:  
     i=1;  
     while i<=10:  
-        print("%d X %d = %d\n"%(n,i,n*i));  
-        i = i+1;  
+        print("%d X %d = %d"%(n,i,n*i))  
+        i = i+1  
     choice = int(input("Do you want to continue printing the table, press 0 for no?"))  
     if choice == 0:  
         break;      

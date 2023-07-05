@@ -83,6 +83,7 @@ print("(a == 1) or (b == 2)",(a == 1) or (b == 2))
 print("(a == 1) and (b == 3)",(a == 1) and (b == 3))
 print("(a == 1) or (b == 4)",(a == 1) or (b == 4))
 print("not (a and b)",not (a and b))
+print((a and b))
 
 print("(a in arr)",(a in arr))
 print("(799 in arr)",(799 in arr))

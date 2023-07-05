@@ -9,7 +9,7 @@ c = 1
 while c <= num: # specifying the condition of the loop  
     # begining the code block  
     summation = c**2 + summation  
-c = c + 1    # incrementing the counter  
+    c = c + 1    # incrementing the counter  
   
 # print the final sum  
 print("The sum of squares is", summation)  
@@ -18,16 +18,17 @@ print("The sum of squares is", summation)
 
 
 
-num = [34, 12, 54, 23, 75, 34, 11]    
+num = [34, 12, 54, 23, 75, 34, 11, 117, 876, 10045, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73]    
   
 def prime_number(number):  
     condition = 0  
     iteration = 2  
     while iteration <= number / 2:  
         if number % iteration == 0:  
-            condition = 1  
-        break  
-        iteration = iteration + 1  
+            condition = 1
+            break  
+        else:  
+            iteration = iteration + 1  
   
     if condition == 0:  
         print(f"{number} is a PRIME number")  

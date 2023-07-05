@@ -1,3 +1,5 @@
+import sys
+
 list1  = [1, "hi", "Python", 2]    
 #Checking type of given list  
 print(type(list1))  
@@ -17,7 +19,14 @@ print (list1 + list1)
 # List repetation using * operator  
 print (list1 * 3)  
 
+#sys.exit(1)
 
 list1[0] = list1[0] * 8
 #Printing the list1  
 print (list1)  
+
+# [1, 'hi', 'Python', 2]
+# [2]
+# [1, 'hi']
+# [1, 'hi', 'Python', 2, 1, 'hi', 'Python', 2]
+# [1, 'hi', 'Python', 2, 1, 'hi', 'Python', 2, 1, 'hi', 'Python', 2]

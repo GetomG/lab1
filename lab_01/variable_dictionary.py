@@ -9,3 +9,4 @@ print("2nd name is "+ d[4])
   
 print (d.keys())    
 print (d.values())    
+print (d.items())
