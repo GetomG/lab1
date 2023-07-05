@@ -1,0 +1,39 @@
+from datetime import datetime
+import os
+
+#4 level filtering
+def validate_files(directory_path):
+    valid_files = []
+    valid_path = []
+
+    for filename in os.listdir(directory_path):
+        path = os.path.isdir(os.path.join(directory_path, filename))
+        if path == False:
+            items = filename.split("_")
+            if ''.join(items[:3]) == "DESCRIBELOGEVENTS":
+                if len(items) > 4:
+                    try: 
+                        datetime.strptime(items[3], date_format)
+                        datetime.strptime(items[4].split(".")[0], time_format)
+                    except ValueError:
+                        pass
+                    else:
+                        valid_files.append(filename)
+                        valid_path.append(os.path.join(directory_path, filename))
+
+    return valid_files, valid_path
+
+
+# Example usage
+date_format = "%Y%m%d"
+time_format = "%H%M%S"
+directory_path = "D:\WorkSpace\Python_Basic\lab_03\input"
+validfile, validpath = validate_files(directory_path)
+
+# Print the valid files
+for filename in validfile:
+    print("\n",filename)
+
+for filepath in validpath:
+    print("\n",filepath)
+

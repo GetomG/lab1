@@ -1,6 +1,9 @@
+##working still havent done file
 D1 = open(r"D:\WorkSpace\Python_Basic\lab_03\input\DESCRIBE_LOG_EVENTS_20230625_154002.txt",'r')
 D2 = open(r"D:\WorkSpace\Python_Basic\lab_03\input\DESCRIBE_LOG_EVENTS_20230625_160416.txt",'r')
 D3 = open(r"D:\WorkSpace\Python_Basic\lab_03\input\DESCRIBE_LOG_EVENTS_20230625_160558.txt",'r')
+
+
 
 D1R = D1.read()
 
